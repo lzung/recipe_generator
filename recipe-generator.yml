@@ -12,10 +12,12 @@ dependencies:
   - torchvision
   - pytorch
   - autograd
-  - pip:
-      - multiprocess
-      - fsspec<=2023.10.0
-      - transformers
-      - tqdm
-      - datasets==2.16.*
-      - pyarrow<=14.*
+  - datasets
+  - transformers
+  # - pip:
+  #     - multiprocess
+  #     - fsspec<=2023.10.0
+  #     - transformers
+  #     - tqdm
+  #     - datasets==2.16.*
+  #     - pyarrow<=14.*
