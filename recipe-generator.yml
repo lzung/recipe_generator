@@ -1,0 +1,21 @@
+name: recipe-generator
+channels:
+  - conda-forge
+  - defaults
+  - pytorch
+dependencies:
+  - ipykernel
+  - ipywidgets
+  - python==3.11.*
+  - pandas
+  - pip
+  - torchvision
+  - pytorch
+  - autograd
+  - pip:
+      - multiprocess
+      - fsspec<=2023.10.0
+      - transformers
+      - tqdm
+      - datasets==2.16.*
+      - pyarrow<=14.*
